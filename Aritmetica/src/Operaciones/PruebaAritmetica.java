@@ -5,11 +5,11 @@ public class PruebaAritmetica {
         
         Aritmetica aritmetica1 = new Aritmetica();
         
-        aritmetica1.a=3;
-        aritmetica1.b=2;
+
+        int resultado = aritmetica1.sumarConRetorno();
+        System.out.println("resultado desde la clase de prueba = " + resultado);
         
-        aritmetica1.sumar();
-        
-        
+        resultado = aritmetica1.sumarConArgumentos(5,8);
+        System.out.println("resultado usando argumentos = " + resultado);
     }
 }
