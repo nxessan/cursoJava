@@ -3,13 +3,21 @@ package Operaciones;
 public class PruebaAritmetica {
     public static void main(String[] args) {
         
-        Aritmetica aritmetica1 = new Aritmetica();
+        //Atributos
+        int a;
+        int b;
         
-
-        int resultado = aritmetica1.sumarConRetorno();
-        System.out.println("resultado desde la clase de prueba = " + resultado);
+        Aritmetica aritmetica1 = new Aritmetica ();
+        System.out.println("aritmetica1 a = " + aritmetica1.a);
+        System.out.println("aritmetica1 b = " + aritmetica1.b);
         
-        resultado = aritmetica1.sumarConArgumentos(5,8);
-        System.out.println("resultado usando argumentos = " + resultado);
+        Aritmetica aritmetica2 = new Aritmetica (5,8);
+        System.out.println("aritmetica2 a = " + aritmetica1.a);
+        System.out.println("aritmetica2 b = " + aritmetica2.b);
+        
+        
+        
+        
+        
     }
 }

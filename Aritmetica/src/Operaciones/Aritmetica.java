@@ -3,7 +3,18 @@ package Operaciones;
 public class Aritmetica {
     
     //Atributos
-    int a, b;
+    int a=0, b=0;
+    
+    public Aritmetica (){
+        
+    }
+    
+    public Aritmetica (int a, int b){
+        this.a=a;
+        this.b=b;
+        System.out.println("a = " + a);
+        System.out.println("b = " + b);
+    }
     
     //Metodos
     public void sumar() {
